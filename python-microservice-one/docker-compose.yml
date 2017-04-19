@@ -1,0 +1,19 @@
+version: '2'
+services:
+  web:
+    image: platella/python-yarw-1:green
+    build: .
+    ports:
+     - "8080"
+    volumes:
+     - /Users/maverick/Workspace/Demo/aws-docker-roma2/python-microservice-one/application:/code
+    cpu_shares: 128
+    mem_limit: 134217728
+    links:
+      - redis
+  redis:
+    image: "redis:alpine"
+    cpu_shares: 128
+    mem_limit: 134217728
+    ports:
+     - "6379"

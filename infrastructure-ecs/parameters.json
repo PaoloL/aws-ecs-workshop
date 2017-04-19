@@ -1,0 +1,46 @@
+[
+  {
+      "ParameterKey" : "Project",
+      "ParameterValue" : "Workshop"
+  },
+  {
+      "ParameterKey" : "Environment",
+      "ParameterValue" : "Demo"
+  },
+  {
+      "ParameterKey" : "Role",
+      "ParameterValue" : "Cluster"
+  },
+  {
+      "ParameterKey" : "KeyName",
+      "ParameterValue" : "aws-microservices-workshop"
+  },
+  {
+      "ParameterKey" : "EC2InstanceProfile",
+      "ParameterValue" : "EC2-TestRole"
+  },
+  {
+      "ParameterKey" : "VpcId",
+      "ParameterValue" : "vpc-c9ee2dad"
+  },
+  {
+      "ParameterKey" : "SubnetsList",
+      "ParameterValue" : "subnet-d7b45d8f,subnet-537eac25,subnet-8aef47ee"
+  },
+  {
+      "ParameterKey" : "DesiredCapacity",
+      "ParameterValue" : "2"
+  },
+  {
+      "ParameterKey" : "MinSize",
+      "ParameterValue" : "2"
+  },
+  {
+      "ParameterKey" : "MaxSize",
+      "ParameterValue" : "10"
+  },
+  {
+      "ParameterKey" : "InstanceType",
+      "ParameterValue" : "t2.micro"
+  }
+]

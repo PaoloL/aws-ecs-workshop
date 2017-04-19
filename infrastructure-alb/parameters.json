@@ -1,0 +1,22 @@
+[
+  {
+      "ParameterKey" : "Project",
+      "ParameterValue" : "Workshop"
+  },
+  {
+      "ParameterKey" : "Environment",
+      "ParameterValue" : "Demo"
+  },
+  {
+      "ParameterKey" : "Role",
+      "ParameterValue" : "MicroGreen"
+  },
+  {
+    "ParameterKey": "VpcId",
+    "ParameterValue": "vpc-c9ee2dad"
+  },
+  {
+    "ParameterKey": "SubnetsList",
+    "ParameterValue": "subnet-d7b45d8f,subnet-537eac25,subnet-8aef47ee"
+  }
+]
